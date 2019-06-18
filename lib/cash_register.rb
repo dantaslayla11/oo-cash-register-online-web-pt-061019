@@ -23,7 +23,7 @@ class CashRegister
       @total -= price_off.to_i
       return  "After the discount, the total comes to $#{@total}."
     end
-    
+    "There is no discount to apply."
   end
     
   
