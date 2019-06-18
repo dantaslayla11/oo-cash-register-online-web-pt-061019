@@ -14,14 +14,6 @@ class CashRegister
     
     @items.push(item)
     final = price * quantity
-   
-    if @discount != 0.0
-      price_off = final * discount;
-      puts price_off
-      puts final
-      final -= price_off.to_i
-      puts final
-    end
     @total += final
   end
   
