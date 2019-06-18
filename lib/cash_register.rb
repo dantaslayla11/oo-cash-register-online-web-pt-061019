@@ -20,7 +20,7 @@ class CashRegister
   def apply_discount
     if @discount != 0.0
       price_off = @total  * @discount;
-      @total -= price_off.to_i
+      @total -= price_off.to_i@
     end
     "After the "
   end
