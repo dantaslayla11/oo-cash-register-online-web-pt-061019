@@ -18,7 +18,8 @@ class CashRegister
     if @discount != 0.0
       price_off = final * discount;
       puts price_off
-      final -= price_off
+      puts final
+      final -= price_off.to_i
     end
     @total += final
   end
