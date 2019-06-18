@@ -21,7 +21,7 @@ class CashRegister
     if @discount != 0.0
       price_off = @total  * @discount;
       @total -= price_off.to_i
-      return  "After the discount, the total comes to $#{@total}"
+      return  "After the discount, the total comes to $#{@total}."
     end
     
   end
