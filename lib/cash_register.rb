@@ -20,6 +20,7 @@ class CashRegister
       puts price_off
       puts final
       final -= price_off.to_i
+      puts final
     end
     @total += final
   end
