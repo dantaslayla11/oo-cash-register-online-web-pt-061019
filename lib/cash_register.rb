@@ -9,8 +9,10 @@ class CashRegister
      
   end 
   
-  def add_item(item, price, )
-  
- 
+  def add_item(item, price, quantity=1)
+    @items.push(item)
+    final = price * quantity;
+    @total += final
+  end
   
 end 
