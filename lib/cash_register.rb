@@ -22,6 +22,7 @@ class CashRegister
       price_off = @total  * @discount;
       @total -= price_off.to_i
     end
+    "After the "
   end
     
   
