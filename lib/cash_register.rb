@@ -25,7 +25,7 @@ class CashRegister
       return  "After the discount, the total comes to $#{@total}."
     end
     "There is no discount to apply."
-  end
+  endlearn submit_tag
   
   def items
     @items
