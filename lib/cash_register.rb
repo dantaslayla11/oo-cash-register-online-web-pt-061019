@@ -13,7 +13,7 @@ class CashRegister
     @discount = @discount/100.0
     puts @discount
     @items.push(item)
-    final = price * qua
+    final = price * quantity
     @total += final
   end
   
